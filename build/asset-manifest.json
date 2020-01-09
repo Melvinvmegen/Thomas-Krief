@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d292fc83.chunk.css",
+    "main.js": "/static/js/main.dcd7f7c1.chunk.js",
+    "main.js.map": "/static/js/main.dcd7f7c1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d31b52b1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d31b52b1.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.68889bc8.chunk.js": "/static/js/2.68889bc8.chunk.js",
+    "static/js/2.68889bc8.chunk.js.map": "/static/js/2.68889bc8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c083d84d0710aba4401acdabc23cc05b.js": "/precache-manifest.c083d84d0710aba4401acdabc23cc05b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.d292fc83.chunk.css.map": "/static/css/main.d292fc83.chunk.css.map",
+    "static/js/2.68889bc8.chunk.js.LICENSE": "/static/js/2.68889bc8.chunk.js.LICENSE",
+    "static/media/CALI 90x90 5184 vis.jpeg": "/static/media/CALI 90x90 5184 vis.26722cbb.jpeg",
+    "static/media/Crazy Skull 90x90 5184 vis.jpeg": "/static/media/Crazy Skull 90x90 5184 vis.6acedbf6.jpeg",
+    "static/media/Golden Tiger 90x90 5184 vis.jpeg": "/static/media/Golden Tiger 90x90 5184 vis.33c4be07.jpeg",
+    "static/media/Signature oeuvres blanc.png": "/static/media/Signature oeuvres blanc.e429368a.png",
+    "static/media/TK-Portraitgoldentiger.jpg": "/static/media/TK-Portraitgoldentiger.295eff2c.jpg",
+    "static/media/index.css": "/static/media/TKStudio-5.15560cf7.jpg",
+    "static/media/Thomas Krief Art Logo Noir.png": "/static/media/Thomas Krief Art Logo Noir.a3da1ce0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d31b52b1.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.68889bc8.chunk.js",
+    "static/css/main.d292fc83.chunk.css",
+    "static/js/main.dcd7f7c1.chunk.js"
+  ]
+}
