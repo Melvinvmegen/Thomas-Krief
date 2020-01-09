@@ -296,7 +296,7 @@
 
   .carousel-control-next,
   .carousel-control-prev {
-    top: -54% !important;
+    top: -74% !important;
   }
 
   .carousel-control-prev {
@@ -305,10 +305,14 @@
 
   .carousel-indicators {
     margin-left: 15% !important;
-    top: 41%;
+    top: 21%;
   }
 
   .section-left {
     padding: 0 30px !important;
+  }
+
+  .featured-item-subheader {
+    font-size: 18px !important;
   }
 }
