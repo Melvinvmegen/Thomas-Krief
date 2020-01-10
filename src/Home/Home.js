@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div id="section-home" className="section-home">
-        <a id="Artiste" className=""></a>
+        <a id="Artiste" className="section-anchor-artist"></a>
         <div id="Artiste" className="section-two">
           <div className="section-wrapper">
             <div className="section-wrapper-left col-xs-12 col-sm-12 col-md-6 align-center">

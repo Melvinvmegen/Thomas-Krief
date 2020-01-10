@@ -20,6 +20,10 @@
   top: -100px;
 }
 
+.section-anchor-artist {
+  position: absolute;
+}
+
 .section-anchor-slide {
   position: absolute;
   top: -50px;
