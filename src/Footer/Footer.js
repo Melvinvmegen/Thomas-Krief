@@ -16,16 +16,6 @@ class Footer extends Component {
                 <div className="footer-header-inner-right">
                   <ul className="social-links">
                     <li>
-                      <a href="" className="icon fa fa-facebook">
-                        <p className="font">Facebook</p>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" className="icon fa fa-twitter">
-                        <p className="font">Twitter</p>
-                      </a>
-                    </li>
-                    <li>
                       <a href="" className="icon fa fa-instagram">
                         <p className="font">Instagram</p>
                       </a>

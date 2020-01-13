@@ -61,8 +61,7 @@
   width: 100%;
   z-index: 1;
   float: left;
-  padding-left: 0;
-  padding-right: 1.5vw;
+  padding: 0 2%;
 }
 
 .myslides-wrapper {

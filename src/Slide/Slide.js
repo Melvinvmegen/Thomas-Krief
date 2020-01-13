@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import GoldenTiger from './Golden Tiger 90x90 5184 vis.jpeg';
-import Cali from './CALI 90x90 5184 vis.jpeg';
-import CrazySkull from './Crazy Skull 90x90 5184 vis.jpeg';
+import GoldenTiger from './Golden Tiger 90x90 5184 vis.jpg';
+import CrazySkull from './Crazy Skull 90x90 5184 vis.jpg';
+import Cali from './CALI 90x90 5184 vis.jpg';
+import King from './King Of The Jungle 90x90 5184 vis.jpg';
 import Carousel from 'react-bootstrap/Carousel'
 
 class Slide extends Component {
@@ -21,17 +22,30 @@ class Slide extends Component {
             <Carousel className="gallery-content" interval="1000000">
               <Carousel.Item className="myslides fade-slide first-slide" data-aos="fade-up">
                 <div className="gallery-right col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                  <img src={Cali} alt="Cali" className="img-gallery" />
+                </div>
+                <div className="gallery-left col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                  <h2 className="title-art">CALI</h2>
+                  <p className="description-art">"Elle est la première oeuvre de ma série « visages ». Elle est douce et délicate. C’est pour cela que j’ai décidé de lui donner le nom de ma fille qui vient de naître."</p>
+                  <p className="bold params-art">90x90 cm <br></br> 5184 vis</p>
+                  <div className="btn-slide">
+                    <a href="mailto:thomas.krief@gmail.com" className="btn-ghost-slide">
+                      <span className=" fa fa-paper-plane"></span><span className="text"> Contactez-moi ►</span>
+                    </a>
+                  </div>
+                </div>
+              </Carousel.Item>
+              <Carousel.Item className="myslides fade-slide first-slide" data-aos="fade-up">
+                <div className="gallery-right col-xs-12 col-sm-12 col-md-12 col-lg-8">
                   <img src={GoldenTiger} alt="Golden Tiger" className="img-gallery" />
                 </div>
                 <div className="gallery-left col-xs-12 col-sm-12 col-md-12 col-lg-4">
                   <h2 className="title-art">GOLDEN TIGER</h2>
-                  <p className="description-art">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et
-                    dolore magna aliqua. "</p>
+                  <p className="description-art">"Regard perçant et dents acérées… Le Golden Tiger est toujours prêt à bondir sur sa proie !"</p>
                   <p className="bold params-art">90x90 cm <br></br> 5184 vis </p>
                   <div className="btn-slide">
                     <a href="mailto:thomas.krief@gmail.com" className="btn-ghost-slide">
-                      <span className=" fa fa-paper-plane"></span><span className="text"> Découvrez en plus ►</span>
+                      <span className=" fa fa-paper-plane"></span><span className="text"> Contactez-moi ►</span>
                     </a>
                   </div>
                 </div>
@@ -42,30 +56,26 @@ class Slide extends Component {
                 </div>
                 <div className="gallery-left col-xs-12 col-sm-12 col-md-12 col-lg-4">
                   <h2 className="title-art">CRAZY SKULL</h2>
-                  <p className="description-art">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et
-                    dolore magna aliqua."</p>
+                  <p className="description-art">"Faites attention de ne pas le regarder trop longtemps dans les yeux ou vous risqueriez de vous faire hypnotiser."</p>
                   <p className="bold params-art">88x115 cm <br></br> 6580 vis</p>
                   <div className="btn-slide">
                     <a href="mailto:thomas.krief@gmail.com" className="btn-ghost-slide">
-                      <span className=" fa fa-paper-plane"></span><span className="text"> Découvrez en plus ►</span>
+                      <span className=" fa fa-paper-plane"></span><span className="text"> Contactez-moi ►</span>
                     </a>
                   </div>
                 </div>
               </Carousel.Item>
               <Carousel.Item className="myslides fade-slide first-slide" data-aos="fade-up">
                 <div className="gallery-right col-xs-12 col-sm-12 col-md-12 col-lg-8">
-                  <img src={Cali} alt="Cali" className="img-gallery" />
+                  <img src={King} alt="Cali" className="img-gallery" />
                 </div>
                 <div className="gallery-left col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                  <h2 className="title-art">CALI</h2>
-                  <p className="description-art">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et
-                    dolore magna aliqua."</p>
+                  <h2 className="title-art">KING OF THE JUNGLE</h2>
+                  <p className="description-art">"La force tranquille. Il n’a pas besoin de montrer ses crocs pour que l’on sache qu’il est le roi de la jungle."</p>
                   <p className="bold params-art">90x90 cm <br></br> 5184 vis</p>
                   <div className="btn-slide">
                     <a href="mailto:thomas.krief@gmail.com" className="btn-ghost-slide">
-                      <span className=" fa fa-paper-plane"></span><span className="text"> Découvrez en plus ►</span>
+                      <span className=" fa fa-paper-plane"></span><span className="text"> Contactez-moi ►</span>
                     </a>
                   </div>
                 </div>

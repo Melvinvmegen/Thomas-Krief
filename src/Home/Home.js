@@ -5,31 +5,6 @@ class Home extends Component {
   render() {
     return (
       <div id="section-home" className="section-home">
-        <a id="Artiste" className="section-anchor-artist"></a>
-        <div id="Artiste" className="section-two">
-          <div className="section-wrapper">
-            <div className="section-wrapper-left col-xs-12 col-sm-12 col-md-6 align-center">
-              <img src={Artist} className="img-home" alt="Portrait de l'artiste" />
-            </div>
-            <div className="section-right-text col-xs-12 col-sm-12 col-md-6">
-              <h2 className="title-bold">L'ARTISTE</h2>
-              <h3 className="featured-item-subheader italic">Précision et patience</h3>
-              <p className="featured-item-body">Fraîchement retraité, il ouvre aujourd'hui un nouveau chapitre de sa vie, ainsi
-                        il peut
-            s'adonner à sa seconde passion et laisser de nouveau libre cours à son imagination.<br></br><br></br> Il décide alors
-                de se
-                lancer. Il commence par travailler ses visuels afin de les adapter à leur futur support. Vient ensuite un
-                travail long et minutieux, où à l'aide de sa visseuse il appose les milliers de vis qui donneront vie à
-                ses
-            oeuvres.</p>
-              <div className="btn-slide">
-                <a href="https://www.instagram.com/thomaskrief/?hl=fr" className="btn-ghost">
-                  <span className=" fa fa-instagram"></span><span className="text"> Découvrez en plus ►</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="relative">
           <a id="Biographie" className="section-anchor"></a>
           <div id="section-one" className="section-one">
@@ -54,6 +29,31 @@ class Home extends Component {
                 <img
                   src="https://images.unsplash.com/photo-1509791413599-93ba127a66b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"
                   className="img-home" id="image-bio" alt="Skieur professionnel" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <a id="Artiste" className="section-anchor-artist"></a>
+        <div id="Artiste" className="section-two">
+          <div className="section-wrapper">
+            <div className="section-wrapper-left col-xs-12 col-sm-12 col-md-6 align-center">
+              <img src={Artist} className="img-home" alt="Portrait de l'artiste" />
+            </div>
+            <div className="section-right-text col-xs-12 col-sm-12 col-md-6">
+              <h2 className="title-bold">L'ARTISTE</h2>
+              <h3 className="featured-item-subheader italic">Précision et patience</h3>
+              <p className="featured-item-body">Fraîchement retraité, il ouvre aujourd'hui un nouveau chapitre de sa vie, ainsi
+                        il peut
+            s'adonner à sa seconde passion et laisser de nouveau libre cours à son imagination.<br></br><br></br> Il décide alors
+                    de se
+                    lancer. Il commence par travailler ses visuels afin de les adapter à leur futur support. Vient ensuite un
+                    travail long et minutieux, où à l'aide de sa visseuse il appose les milliers de vis qui donneront vie à
+                    ses
+            oeuvres.</p>
+              <div className="btn-slide">
+                <a href="https://www.instagram.com/thomaskrief/?hl=fr" className="btn-ghost">
+                  <span className=" fa fa-instagram"></span><span className="text"> Découvrez en plus ►</span>
+                </a>
               </div>
             </div>
           </div>
