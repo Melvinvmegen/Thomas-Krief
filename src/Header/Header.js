@@ -2,6 +2,15 @@ import React, { Component } from "react";
 import Logo from './Thomas Krief Art Logo Noir.png';
 
 class Header extends Component {
+  state = {
+    show: false
+  }
+
+  toggleMenu = () => {
+    const doesShow = this.state.show;
+    this.setState({ show: !doesShow })
+  }
+
   render() {
     return (
       <div className="site-header">
@@ -23,21 +32,31 @@ class Header extends Component {
                   <div className="mobile-header">
                     <div className="menu-logo"><img src={Logo} id="logo" alt="Logo" />
                     </div>
-                    <div className="menu-toggle">
+                    <div className="menu-toggle" onClick={this.toggleMenu}>
                       <div className="line"></div>
                       <div className="line"></div>
                       <div className="line"></div>
                     </div>
                   </div>
-                  <div className="mobile-nav">
-                    <h2>Navigation</h2>
-                    <ul>
-                      <li><a href="#Créations">Créations</a></li>
-                      <li><a href="#Artiste">L'Artiste</a></li>
-                      <li><a href="#Biographie">Biographie</a></li>
-                      <li><a href="mailto:thomas.krief@gmail.com">Contact</a></li>
-                    </ul>
-                  </div>
+                  {
+                    this.state.show ?
+                      <div className="mobile-nav">
+                        <div className="menu-toggle" onClick={this.toggleMenu}>
+                          <div className="line-active"></div>
+                          <div className="line-active"></div>
+                          <div className="line-active"></div>
+                        </div>
+                        <div className="mobile-nav-menu">
+                          <h2 className="mobile-nav-title">Navigation</h2>
+                          <ul>
+                            <li><a href="#Créations" onClick={this.toggleMenu}>Créations</a></li>
+                            <li><a href="#Artiste" onClick={this.toggleMenu}>L'Artiste</a></li>
+                            <li><a href="#Biographie" onClick={this.toggleMenu}>Biographie</a></li>
+                            <li><a href="mailto:thomas.krief@gmail.com" onClick={this.toggleMenu}>Contact</a></li>
+                          </ul>
+                        </div>
+                      </div> : null
+                  }
                 </div>
               </div>
             </div>
