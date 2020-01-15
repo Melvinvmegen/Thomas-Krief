@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4692897b6d5cf41c7f40fab09eb3fc7d",
+    "revision": "40f3c94f965d673116a5dddde75b1303",
     "url": "/index.html"
   },
   {
-    "revision": "aee7694360351b0b95ac",
+    "revision": "8ef2ffbb6d58320ca34d",
     "url": "/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "0eef0464af8c613d538f",
-    "url": "/static/css/main.e4299a4c.chunk.css"
+    "revision": "6a09a500a00fe0be0f1f",
+    "url": "/static/css/main.95f27f62.chunk.css"
   },
   {
-    "revision": "aee7694360351b0b95ac",
-    "url": "/static/js/2.990948dd.chunk.js"
+    "revision": "8ef2ffbb6d58320ca34d",
+    "url": "/static/js/2.c11b7a20.chunk.js"
   },
   {
     "revision": "f032203ca460334c00de541c30a6078a",
-    "url": "/static/js/2.990948dd.chunk.js.LICENSE"
+    "url": "/static/js/2.c11b7a20.chunk.js.LICENSE"
   },
   {
-    "revision": "0eef0464af8c613d538f",
-    "url": "/static/js/main.8fdb095f.chunk.js"
+    "revision": "6a09a500a00fe0be0f1f",
+    "url": "/static/js/main.b71472a6.chunk.js"
   },
   {
     "revision": "e51449285dee7741e5a1",
@@ -50,5 +50,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "136be20b13ce865279e52481f595f191",
     "url": "/static/media/TKStudio-5.136be20b.jpg"
+  },
+  {
+    "revision": "a6e04ceb12e7e53e60f7e8d6e1db9bf8",
+    "url": "/static/media/Toto Ski.a6e04ceb.jpg"
   }
 ]);
