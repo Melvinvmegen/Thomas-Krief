@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Artist from './TK-Portraitgoldentiger.jpg'
+import Ski from './Toto Ski.jpg'
 
 class Home extends Component {
   render() {
@@ -26,8 +27,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="section-wrapper-right col-xs-12 col-sm-12 col-md-6 align-center">
-                <img
-                  src="https://images.unsplash.com/photo-1509791413599-93ba127a66b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"
+                <img src={Ski}
                   className="img-home" id="image-bio" alt="Skieur professionnel" />
               </div>
             </div>
