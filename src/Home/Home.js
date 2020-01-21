@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div id="section-home" className="section-home">
         <div className="relative">
-          <a id="Biographie" className="section-anchor"></a>
+          <a id="Biographie" className="section-anchor" href=""></a>
           <div id="section-one" className="section-one">
             <div className="section-wrapper-two">
               <div className="section-left col-xs-12 col-sm-12 col-md-6">
