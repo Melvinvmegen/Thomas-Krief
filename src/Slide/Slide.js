@@ -29,9 +29,9 @@ class Slide extends Component {
                   <p className="description-art">"Elle est la première oeuvre de ma série « visages ». Elle est douce et délicate. C’est pour cela que j’ai décidé de lui donner le nom de ma fille qui vient de naître."</p>
                   <p className="bold params-art">90x90 cm <br></br> 5184 vis</p>
                   <div className="btn-slide">
-                    <allow-intent data-rel="external" href="mailto:thomas.krief@gmail.com?subject=Demanded'information" target="_blank" className="btn-ghost-slide">
+                    <a data-rel="external" href="mailto:thomas.krief@gmail.com?subject=Demanded'information" target="_blank" className="btn-ghost-slide">
                       <span className=" fa fa-paper-plane"></span><span className="text"> Contactez-moi ►</span>
-                    </allow-intent>
+                    </a>
                   </div>
                 </div>
               </Carousel.Item>
@@ -44,9 +44,9 @@ class Slide extends Component {
                   <p className="description-art">"Regard perçant et dents acérées… Le Golden Tiger est toujours prêt à bondir sur sa proie !"</p>
                   <p className="bold params-art">90x90 cm <br></br> 5184 vis </p>
                   <div className="btn-slide">
-                    <allow-intent data-rel="external" href="mailto:thomas.krief@gmail.com?subject=Demanded'information" target="_blank" className="btn-ghost-slide">
+                    <a data-rel="external" href="mailto:thomas.krief@gmail.com?subject=Demanded'information" target="_blank" className="btn-ghost-slide">
                       <span className=" fa fa-paper-plane"></span><span className="text"> Contactez-moi ►</span>
-                    </allow-intent>
+                    </a>
                   </div>
                 </div>
               </Carousel.Item>
@@ -59,9 +59,9 @@ class Slide extends Component {
                   <p className="description-art">"Faites attention de ne pas le regarder trop longtemps dans les yeux ou vous risqueriez de vous faire hypnotiser."</p>
                   <p className="bold params-art">88x115 cm <br></br> 6580 vis</p>
                   <div className="btn-slide">
-                    <allow-intent data-rel="external" href="mailto:thomas.krief@gmail.com?subject=Demanded'information" target="_blank" className="btn-ghost-slide">
+                    <a data-rel="external" href="mailto:thomas.krief@gmail.com?subject=Demanded'information" target="_blank" className="btn-ghost-slide">
                       <span className=" fa fa-paper-plane"></span><span className="text"> Contactez-moi ►</span>
-                    </allow-intent>
+                    </a>
                   </div>
                 </div>
               </Carousel.Item>
@@ -74,9 +74,9 @@ class Slide extends Component {
                   <p className="description-art">"La force tranquille. Il n’a pas besoin de montrer ses crocs pour que l’on sache qu’il est le roi de la jungle."</p>
                   <p className="bold params-art">90x90 cm <br></br> 5184 vis</p>
                   <div className="btn-slide">
-                    <allow-intent data-rel="external" href="mailto:thomas.krief@gmail.com?subject=Demanded'information" target="_blank" className="btn-ghost-slide">
+                    <a data-rel="external" href="mailto:thomas.krief@gmail.com?subject=Demanded'information" target="_blank" className="btn-ghost-slide">
                       <span className=" fa fa-paper-plane"></span><span className="text"> Contactez-moi ►</span>
-                    </allow-intent>
+                    </a>
                   </div>
                 </div>
               </Carousel.Item>
