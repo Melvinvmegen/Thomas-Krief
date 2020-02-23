@@ -203,6 +203,12 @@
   background-color: #fff;
 }
 
+@media (max-width: 992px) {
+  .gallery-left {
+    height: 300px;
+  }
+}
+
 @media (max-width: 768px) {
   .section-slide {
     margin: 100px auto;
@@ -268,9 +274,11 @@
     font-size: 20px !important;
     padding: 15px 25px !important;
   }
+
   .title-art {
     margin-top: 20px;
   }
+
   .featured-item-subheader {
     text-align: center;
   }
