@@ -62,6 +62,7 @@
   z-index: 1;
   float: left;
   padding: 0 2%;
+  height: 450px;
 }
 
 .myslides-wrapper {
@@ -203,6 +204,12 @@
   background-color: #fff;
 }
 
+@media (max-width: 1100px) {
+  .carousel-indicators {
+    top: 70%;
+  }
+}
+
 @media (max-width: 992px) {
   .gallery-left {
     height: 300px;
@@ -268,11 +275,7 @@
   .carousel-indicators {
     top: 50%;
     margin-left: 15% !important;
-  }
-
-  .btn-ghost-slide {
-    font-size: 20px !important;
-    padding: 15px 25px !important;
+    height: 100px;
   }
 
   .title-art {
@@ -321,5 +324,40 @@
 
   .featured-item-subheader {
     font-size: 18px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .carousel-indicators {
+    top: 25%;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: -70% !important;
+  }
+}
+
+
+@media (max-width: 375px) {
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: -75% !important;
+  }
+
+  .carousel-indicators {
+    top: 20%;
+  }
+}
+
+@media (max-width: 320px) {
+  .carousel-indicators {
+    top: 18%;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: -80% !important;
   }
 }
