@@ -4,7 +4,6 @@ import Banner from './Banner/Banner';
 import Slide from './Slide/Slide';
 import Home from './Home/Home';
 import Footer from './Footer/Footer';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   render() {
