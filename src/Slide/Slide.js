@@ -20,7 +20,7 @@ class Slide extends Component {
           </h3>
             </div>
             <Carousel className="gallery-content" interval="1000000">
-              <Carousel.Item className="myslides fade-slide first-slide" data-aos="fade-up">
+              <Carousel.Item className="myslides fade-slide" data-aos="fade-up">
                 <div className="gallery-right col-xs-12 col-sm-12 col-md-12 col-lg-8">
                   <img src={Cali} alt="Cali" className="img-gallery" />
                 </div>
@@ -35,7 +35,7 @@ class Slide extends Component {
                   </div>
                 </div>
               </Carousel.Item>
-              <Carousel.Item className="myslides fade-slide first-slide" data-aos="fade-up">
+              <Carousel.Item className="myslides fade-slide" data-aos="fade-up">
                 <div className="gallery-right col-xs-12 col-sm-12 col-md-12 col-lg-8">
                   <img src={GoldenTiger} alt="Golden Tiger" className="img-gallery" />
                 </div>
@@ -50,7 +50,7 @@ class Slide extends Component {
                   </div>
                 </div>
               </Carousel.Item>
-              <Carousel.Item className="myslides fade-slide first-slide" data-aos="fade-up">
+              <Carousel.Item className="myslides fade-slide" data-aos="fade-up">
                 <div className="gallery-right col-xs-12 col-sm-12 col-md-12 col-lg-8">
                   <img src={CrazySkull} alt="CrazySkull" className="img-gallery" />
                 </div>
@@ -65,7 +65,7 @@ class Slide extends Component {
                   </div>
                 </div>
               </Carousel.Item>
-              <Carousel.Item className="myslides fade-slide first-slide" data-aos="fade-up">
+              <Carousel.Item className="myslides fade-slide" data-aos="fade-up">
                 <div className="gallery-right col-xs-12 col-sm-12 col-md-12 col-lg-8">
                   <img src={King} alt="Cali" className="img-gallery" />
                 </div>
