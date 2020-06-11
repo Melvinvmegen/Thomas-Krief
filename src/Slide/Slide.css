@@ -1,7 +1,7 @@
 .section-slide {
   width: 80%;
   max-width: 1200px;
-  margin: 300px auto;
+  margin: 100px auto;
   position: relative;
   min-height: 90vh;
 }
@@ -52,11 +52,11 @@
 }
 
 .carousel-control-prev {
-  left: 30% !important;
+  left: 33% !important;
 }
 
 .carousel-indicators {
-  margin-left: 50% !important;
+  margin-left: 59% !important;
   margin-bottom: 0;
 }
 
@@ -234,6 +234,11 @@
     margin: 75px auto 50px auto;
   }
 
+
+  .gallery-right {
+    padding: 10px;
+  }
+
   .title-art {
     text-align: center;
     font-size: 25px;
@@ -244,6 +249,7 @@
     text-align: center;
     line-height: 1.5;
     font-size: 15px;
+    margin-bottom: 0;
   }
 
   .params-art {
@@ -268,10 +274,10 @@
 
   .carousel-inner {
     height: 700px;
+    overflow: initial !important;
   }
 
   .section-right-text {
-    padding: 0;
     margin: 0;
   }
 
@@ -286,7 +292,7 @@
   }
 
   .carousel-indicators {
-    bottom: 10% !important;
+    bottom: 20% !important;
     margin-left: 15% !important;
     height: 100px;
   }
@@ -341,7 +347,7 @@
 
 @media (max-width: 425px) {
   .carousel-indicators {
-    bottom: 43% !important;
+    bottom: 49% !important;
   }
 
   .carousel-control-next,
@@ -359,13 +365,13 @@
   }
 
   .carousel-indicators {
-    bottom: 46% !important;
+    bottom: 53% !important;
   }
 }
 
 @media (max-width: 320px) {
   .carousel-indicators {
-    bottom: 51% !important;
+    bottom: 59% !important;
   }
 
   .carousel-control-next,
