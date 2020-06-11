@@ -19,11 +19,11 @@ class Header extends Component {
             <div className="main-header-top">
               <div className="main-header-center">
                 <div className="nav-menu d-none d-sm-none d-md-flex">
-                  <div className="nav-menu-item"><a href="#Créations">Créations</a></div>
-                  <div className="nav-menu-item"><a href="#Artiste">L'Artiste</a></div>
+                  <div className="nav-menu-item"><a href="#Créations">CREATIONS</a></div>
+                  <div className="nav-menu-item"><a href="#Artiste">L'ARTISTE</a></div>
                   <div className=""><img src={Logo} id="logo" alt="Logo" />
                   </div>
-                  <div className="nav-menu-item"><a href="#Biographie">Biographie</a></div>
+                  <div className="nav-menu-item"><a href="#Biographie">BIOGRAPHIE</a></div>
                   <div className=""> <a id="hire-me" href="mailto:thomas.krief@gmail.com" title="hire-me" className="btn-ghost">
                     Contactez-moi</a>
                   </div>
