@@ -84,10 +84,6 @@
 }
 
 @media (max-width: 640px) {
-  .btn-ghost-slide {
-    font-size: 4vw !important;
-  }
-
   .btn-ghost {
     font-size: 3.3vw !important;
   }
